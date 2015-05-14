@@ -37,7 +37,7 @@ a {
 	text-decoration: underline;
 	border: 1px solid transparent;
 }
-a:hover {
+a:hover, a:active {
 	background-color: white;
 	text-decoration: none;
 	border: 1px solid white;
@@ -46,7 +46,7 @@ body.even a {
 	color: black;
 	border: 1px solid transparent;
 }
-body.even a:hover {
+body.even a:hover, body.even a:active {
 	color: white;
 	background-color: black;
 	border: 1px solid black;
