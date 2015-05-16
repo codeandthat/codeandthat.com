@@ -4,6 +4,9 @@ body {
 	background-color: black;
 	color: #ddd;
 }
+.container {
+	max-width: 720px;
+}
 body.even {
 	background-color: white;
 	color: #333;
@@ -15,8 +18,8 @@ h1 {
 	font-size: 200px;
 	letter-spacing: -42px;
 	line-height: 0.75em;
-	margin-top: 200px;
-	margin-bottom: 100px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 @media (max-width: 768px) {
 	h1 {
@@ -57,7 +60,7 @@ body.even a:hover, body.even a:active {
 }
 
 footer {
-	margin-top: 150px;
+	margin-top: 50px;
 	margin-bottom: 50px;
 	font-size: 0.8em;
 	text-align: right;
